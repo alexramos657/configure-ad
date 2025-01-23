@@ -66,13 +66,6 @@ This project outlines the implementation of on-premises Active Directory within 
   <img src="https://i.imgur.com/apQsfU6.png" height="75%" width="100%" alt="static ip"/>
 </p>
 <p>
-  Ensure that both VMs are in the same Vnet (you can check the topology with Network Watcher):
-</p>
-<p>
-  <img src="" height="75%" width="100%" alt="topology"/>
-</p>
-<br />
-<br />
 <h3 align="center">Ensure Connectivity between the client and Domain Controller</h3>
 <br />
 <p>
