@@ -36,10 +36,21 @@ This project outlines the implementation of on-premises Active Directory within 
 <h3 align="center">Setup Resources in Azure</h3>
 <br />
 <p>
-  Create the Domain Controller VM (Windows Server 2022) named “DC-1”:
+  Open Azure and create a Resource Group:
 </p>
 <p>
   <img src="https://i.imgur.com/REIqjnT.png" height="75%" width="100%" alt="resource group"/>
+</p>
+<p>
+ Create a Virtual Network:
+</p>
+<p>
+  <img src="https://i.imgur.com/yHHRLLo.png" height="75%" width="100%" alt="vm ms server"/>
+</p>
+<p>
+  Create the Domain Controller VM (Windows Server 2022) named “DC-1.” Use the same Resource Group and Vnet that was created in previous step:
+</p>
+<p>
   <img src="https://i.imgur.com/K8IxP54.png" height="75%" width="100%" alt="vm ms server"/>
 </p>
 <p>
