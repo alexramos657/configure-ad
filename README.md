@@ -46,13 +46,13 @@ This project outlines the implementation of on-premises Active Directory within 
   Create the Client VM (Windows 10) named “Client-1”. Use the same Resource Group and Vnet that was created in previous step:
 </p>
 <p>
-  <img src="" height="75%" width="100%" alt="vm windows"/>
+  <img src="https://i.imgur.com/8gNGbV5.png" height="75%" width="100%" alt="vm windows"/>
 </p>
 <p>
   Set Domain Controller’s NIC Private IP address to be static:
 </p>
 <p>
-  <img src="" height="75%" width="100%" alt="static ip"/>
+  <img src="https://i.imgur.com/apQsfU6.png" height="75%" width="100%" alt="static ip"/>
 </p>
 <p>
   Ensure that both VMs are in the same Vnet (you can check the topology with Network Watcher):
