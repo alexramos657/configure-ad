@@ -52,12 +52,14 @@ This project outlines the implementation of on-premises Active Directory within 
 </p>
 <p>
   <img src="https://i.imgur.com/K8IxP54.png" height="75%" width="100%" alt="vm ms server"/>
+  <img src="https://i.imgur.com/0kKNLGc.png" height="75%" width="100%" alt="vm ms server"/>
 </p>
 <p>
   Create the Client VM (Windows 10) named “Client-1”. Use the same Resource Group and Vnet that was created in previous step:
 </p>
 <p>
   <img src="https://i.imgur.com/8gNGbV5.png" height="75%" width="100%" alt="vm windows"/>
+  <img src="https://i.imgur.com/0kKNLGc.png" height="75%" width="100%" alt="vm windows"/>
 </p>
 <p>
   Set Domain Controller’s NIC Private IP address to be static:
