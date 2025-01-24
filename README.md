@@ -96,19 +96,19 @@ This project outlines the implementation of on-premises Active Directory within 
   Login to DC-1 and install Active Directory Domain Services:
 </p>
 <p>
-  <img src="" height="75%" width="100%" alt="active directory install"/>
+  <img src="https://i.imgur.com/NynHy4w.png" height="75%" width="100%" alt="active directory install"/>
 </p>
 <p>
   Promote as a Domain Controller:
 </p>
 <p>
-  <img src="" height="75%" width="100%" alt="domain controller promotion"/>
+  <img src="https://i.imgur.com/hMQ5gkq.png" height="75%" width="100%" alt="domain controller promotion"/>
 </p>
 <p>
-  Setup a new forest as myactivedirectory.com (can be anything, just remember what it is - I ultimately did set it up as myadproject.com which you'll see in the next pic):
+  Setup a new forest as mydomain.com (can be anything, just remember what it is):
 </p>
 <p>
-  <img src="" height="75%" width="100%" alt="set new forest"/>
+  <img src="https://i.imgur.com/nZO7dr1.png" height="75%" width="100%" alt="set new forest"/>
 </p>
 <p>
   Restart and then log back into DC-1 as user: myadproject.com\labuser:
