@@ -162,7 +162,7 @@ This project outlines the implementation of on-premises Active Directory within 
   Login to Client-1 (Remote Desktop) as the original local admin (labuser) and join it to the domain (computer will restart):
 </p>
 <p>
-  <img src="" height="75%" width="100%" alt="domain joining"/>
+  <img src="https://i.imgur.com/ew8m8ty.png" height="75%" width="100%" alt="domain joining"/>
 </p>
 <p>
   Login to the Domain Controller (Remote Desktop) and verify Client-1 shows up in Active Directory Users and Computers (ADUC) inside the “Computers” container on the root of the domain.
@@ -171,7 +171,7 @@ This project outlines the implementation of on-premises Active Directory within 
   Create a new OU named “_CLIENTS” and drag Client-1 into there:
 </p>
 <p>
-  <img src="" height="75%" width="100%" alt="active directory client verification"/>
+  <img src="https://i.imgur.com/Lzh8EB1.png" height="75%" width="100%" alt="active directory client verification"/>
 </p>
 <br />
 <br />
@@ -193,7 +193,7 @@ This project outlines the implementation of on-premises Active Directory within 
   Normally you’d want to do this with Group Policy that allows you to change MANY systems at once (maybe a future lab):
 </p>
 <p>
-  <img src="" height="75%" width="100%" alt="remote desktop setup"/>
+  <img src="https://i.imgur.com/HsjiT6j.png" height="75%" width="100%" alt="remote desktop setup"/>
 </p>
 <br />
 <br />
@@ -209,21 +209,20 @@ This project outlines the implementation of on-premises Active Directory within 
   Create a new File and paste the contents of this script (https://github.com/Xinloiazn/configure-ad/blob/main/adscript.ps1) into it:
 </p>
 <p>
-  <img src="" height="75%" width="100%" alt="create users script"/>
+  <img src="https://i.imgur.com/fkx8gyJ.png" height="75%" width="100%" alt="create users script"/>
 </p>
 <p>
   Run the script and observe the accounts being created:
 </p>
 <p>
-  <img src="" height="75%" width="100%" alt="observe create users script"/>
+  <img src="https://i.imgur.com/TRjTmk5.png" height="75%" width="100%" alt="observe create users script"/>
 </p>
 <p>
   When finished, open ADUC and observe the accounts in the appropriate OU and attempt to log into Client-1 with one of the accounts (take note of the password in the script):
 </p>
 <p>
-  <img src="" height="75%" width="100%" alt="employee user accounts"/>
-  <img src="" height="75%" width="100%" alt="employee user selection"/>
-  <img src="" height="75%" width="100%" alt="employee user login"/>
+  <img src="https://i.imgur.com/s0ZraEv.png" height="75%" width="100%" alt="employee user accounts"/>
+  <img src="https://i.imgur.com/vBBdO30.png" height="75%" width="100%" alt="employee user selection"/>
 </p>
 <br />
 <br />
