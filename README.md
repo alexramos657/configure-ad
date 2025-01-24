@@ -125,25 +125,25 @@ This project outlines the implementation of on-premises Active Directory within 
 </p>
 <p>
   <img src="https://i.imgur.com/NPt0adu.png" height="75%" width="100%" alt="organizational unit"/>
-  <img src="" height="75%" width="100%" alt="organizational unit"/>
+  <img src="https://i.imgur.com/2pCtsMd.png" height="75%" width="100%" alt="organizational unit"/>
 </p>
 <p>
   Create a new employee named “Jane Doe” with the username of “jane_admin”:
 </p>
 <p>
-  <img src="" height="75%" width="100%" alt="admin creation"/>
+  <img src="https://i.imgur.com/TuFTJa4.png" height="75%" width="100%" alt="admin creation"/>
 </p>
 <p>
   Add jane_admin to the “Domain Admins” Security Group:
 </p>
 <p>
-  <img src="" height="75%" width="100%" alt="security group"/>
+  <img src="https://i.imgur.com/dkmo3fi.png" height="75%" width="100%" alt="security group"/>
 </p>
 <p>  
   Log out/close the Remote Desktop connection to DC-1 and log back in as “myadproject.com\jane_admin”. Use jane_admin as your admin account from now on:
 </p>
 <p>
-  <img src="" height="75%" width="100%" alt="admin login"/>
+  <img src="https://i.imgur.com/C1oz298.png" height="75%" width="100%" alt="admin login"/>
 </p>
 <br />
 <br />
@@ -153,7 +153,7 @@ This project outlines the implementation of on-premises Active Directory within 
   From the Azure Portal, set Client-1’s DNS settings to the DC’s Private IP address:
 </p>
 <p>
-  <img src="" height="75%" width="100%" alt="client dns settings"/>
+  <img src="https://i.imgur.com/b67eyQD.png" height="75%" width="100%" alt="client dns settings"/>
 </p>
 <p>
   From the Azure Portal, restart Client-1.
