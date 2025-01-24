@@ -124,7 +124,7 @@ This project outlines the implementation of on-premises Active Directory within 
   In Active Directory Users and Computers (ADUC), create an Organizational Unit (OU) called “_EMPLOYEES” and another one called "_ADMINS":
 </p>
 <p>
-  <img src="" height="75%" width="100%" alt="organizational unit"/>
+  <img src="https://i.imgur.com/NPt0adu.png" height="75%" width="100%" alt="organizational unit"/>
   <img src="" height="75%" width="100%" alt="organizational unit"/>
 </p>
 <p>
