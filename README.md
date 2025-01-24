@@ -74,19 +74,19 @@ This project outlines the implementation of on-premises Active Directory within 
   Login to Client-1 with Remote Desktop and ping DC-1’s private IP address with ping -t <ip address> (perpetual ping):
 </p>
 <p>
-  <img src="" height="75%" width="100%" alt="perpetual ping"/>
+  <img src="https://i.imgur.com/9OJ1pOF.png" height="75%" width="100%" alt="perpetual ping"/>
 </p>
 <p>
   Login to the Domain Controller and enable ICMPv4 in on the local windows firewall:
 </p>
 <p>
-  <img src="" height="75%" width="100%" alt="enable ICMPv4"/>
+  <img src="https://i.imgur.com/0dmNNPA.png" height="75%" width="100%" alt="enable ICMPv4"/>
 </p>
 <p>
   Check back at Client-1 to see the ping succeed:
 </p>
 <p>
-  <img src="" height="75%" width="100%" alt="ping success"/>
+  <img src="https://i.imgur.com/sBvGoq5.png" height="75%" width="100%" alt="ping success"/>
 </p>
 <br />
 <br />
