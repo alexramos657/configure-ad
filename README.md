@@ -111,10 +111,10 @@ This project outlines the implementation of on-premises Active Directory within 
   <img src="https://i.imgur.com/nZO7dr1.png" height="75%" width="100%" alt="set new forest"/>
 </p>
 <p>
-  Restart and then log back into DC-1 as user: myadproject.com\labuser:
+  Restart and then log back into DC-1 as user: mydomain.com\labuser:
 </p>
 <p>
-  <img src="" height="75%" width="100%" alt="fqdn login"/>
+  <img src="https://i.imgur.com/3MujHRn.png" height="75%" width="100%" alt="fqdn login"/>
 </p>
 <br />
 <br />
